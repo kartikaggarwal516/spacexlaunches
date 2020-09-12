@@ -1,0 +1,144 @@
+.launches{    
+    background-color: whitesmoke;
+    background-size: cover;  
+    padding: 5px;  
+}
+.launches h3{    
+    margin-left: 30px;
+    font-weight: 700;    
+}
+.lbox{    
+    display: flex;    
+    justify-content: space-between;    
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: fit-content;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0px 4px 20px;
+    border-radius: 5px;
+}
+.filter h4{
+    display: flex;
+    justify-content: left;
+    font-weight: 800;
+}
+.filter h5{    
+    text-decoration: underline;
+    font-size: large;
+}
+.launch_y{
+    display: flex;
+    width: 11vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;    
+}
+.launch_y .btn-primary{    
+    background-color: limegreen;
+    border-color: limegreen;
+    color: black;
+}
+.ybutton{
+    margin: 5px 0;
+}
+.launch_s{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.launch_s button{
+    margin: 0 5px;
+    background-color: limegreen;
+    border-color: limegreen;
+    color: black;
+}
+.launch_l{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.launch_l button{
+    margin: 0 5px;
+    background-color: limegreen;
+    border-color: limegreen;
+    color: black;
+}
+.launchbox{
+    width: 82vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.lcard{
+    height: fit-content;        
+    margin: 10px;
+    padding: 10px;    
+    box-shadow: 0px 4px 20px;      
+}
+.developer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+    .filter{
+        display: flex;
+        flex-direction: column;
+        width: 22vw;
+        height: fit-content;
+        align-items: center;
+        margin-top: 10px;
+        box-shadow: 0px 4px 20px;
+        border-radius: 5px;
+    }
+    .launch_y{
+        display: flex;
+        width: 11vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 5px 0;    
+    }
+    .launchbox{
+        width: 82vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;    
+    }
+    .lcard{
+        height: fit-content;        
+        margin: 5px;
+        padding: 5px;    
+        box-shadow: 0px 4px 20px;      
+    }
+}
+@media (max-width: 700px) {    
+    .lbox{    
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        justify-content: space-between;    
+    }
+    .filter{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: fit-content;
+        align-items: center;
+        margin-top: 10px;
+        box-shadow: 0px 4px 20px;
+        border-radius: 5px;
+    }
+    .launchbox{
+        width: 82vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+}
